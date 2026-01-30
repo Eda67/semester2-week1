@@ -11,4 +11,9 @@
 
 
 -- write your sql code here
+--1. SELECT country FROM countries ORDER BY Population DESC LIMIT 10;
+--2. SELECT country FROM countries ORDER BY AreaSqMi ASC LIMIT 5;
+--3. SELECT country FROM countries ORDER BY AreaSqMi DESC LIMIT 1;
+--4. SELECT country FROM countries WHERE Continent = 'Africa' ORDER BY AreaSqMi ASC LIMIT 3;
+--5. SELECT country FROM countries ORDER BY LiteracyPercent ASC LIMIT3;
 

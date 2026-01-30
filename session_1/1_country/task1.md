@@ -2,7 +2,7 @@
 
 ## Exercises
 1. Retrieve all data from the countries table.
-2. Select only the Country and Population columns.
+2. Select only the Country and Population columns. 
 3. Find all country names in Europe.
 4. Find all countries with a population greater than 100 million.
 5. Find countries in Asia with a GDP per capita greater than 20,000.
