@@ -13,3 +13,6 @@
  Attribute: Grades, it belongs to Enrollment table as it belongs to both student and course. this attribute cannot belong to just Student table, as there needs to be a courseid for that grade too.
  Atrribute: Academic year, it describes which accademic year he student took that course, it's not something that belongs to student entity or the curse entity.
 6.	Identify the highest normal form that this database satisfies and justify your answer with reference to the structure of the tables and their attributes. [4]
+- As the tables in the database hace primary keys with atomic values and each row is uniquely indentifiable, it meets 1NF. 
+- There are no partial dependencies on the primary keys in the tables in the databse, and it satisfies 1NF , so it meets 2NF
+- There are no transitive dependecy in the tables, all the attributes directly depends on the primary key and no partial dependecy on any other non primary keys, and it satisfies 2NF, so it meets 3NF.
